@@ -5,9 +5,61 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_driver_idle</sprite>
+    <sprites name="throw">
+      <sprite>sprites\spr_player_throw_right</sprite>
+      <sprite>sprites\spr_player_throw_left</sprite>
+    </sprites>
+    <sprites name="hit">
+      <sprite>sprites\spr_player_hit_left</sprite>
+      <sprite>sprites\spr_player_hit_right</sprite>
+    </sprites>
+    <sprites name="obstacle">
+      <sprite>sprites\spr_obstacle_1</sprite>
+      <sprite>sprites\spr_obstacle_2</sprite>
+      <sprite>sprites\spr_obstacle_3</sprite>
+      <sprite>sprites\spr_obstacle_4</sprite>
+      <sprite>sprites\spr_obstacle_5</sprite>
+      <sprites name="weapon">
+        <sprite>sprites\spr_weapon_1</sprite>
+        <sprite>sprites\spr_weapon_2</sprite>
+        <sprite>sprites\spr_weapon_3</sprite>
+        <sprite>sprites\spr_weapon_4</sprite>
+        <sprite>sprites\spr_weapon_5</sprite>
+        <sprite>sprites\spr_weapon_6</sprite>
+      </sprites>
+    </sprites>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_road</background>
+    <background>background\bg_road_wall</background>
+    <backgrounds name="level2">
+      <background>background\bg_road_level_2</background>
+      <background>background\bg_road_wall_level_2</background>
+      <backgrounds name="level3">
+        <background>background\bg_road_level_3</background>
+        <background>background\bg_road_wall_level_3</background>
+      </backgrounds>
+    </backgrounds>
+    <backgrounds name="level4">
+      <background>background\bg_road_level_4</background>
+      <background>background\bg_road_wall_level_4</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_input.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\r_main</room>
+    <room>rooms\r_main_level_2</room>
+    <room>rooms\r_main_level_3</room>
+    <room>rooms\r_main_level_4</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
