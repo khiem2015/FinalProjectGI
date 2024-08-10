@@ -7,14 +7,6 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_driver_idle</sprite>
-    <sprites name="throw">
-      <sprite>sprites\spr_player_throw_right</sprite>
-      <sprite>sprites\spr_player_throw_left</sprite>
-    </sprites>
-    <sprites name="hit">
-      <sprite>sprites\spr_player_hit_left</sprite>
-      <sprite>sprites\spr_player_hit_right</sprite>
-    </sprites>
     <sprites name="obstacle">
       <sprite>sprites\spr_obstacle_1</sprite>
       <sprite>sprites\spr_obstacle_2</sprite>
@@ -30,10 +22,10 @@
         <sprite>sprites\spr_weapon_6</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\spr_enermy</sprite>
+    <sprite>sprites\spr_bullet</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bg_road</background>
-    <background>background\bg_road_wall</background>
     <backgrounds name="level2">
       <background>background\bg_road_level_2</background>
       <background>background\bg_road_wall_level_2</background>
@@ -46,13 +38,25 @@
       <background>background\bg_road_level_4</background>
       <background>background\bg_road_wall_level_4</background>
     </backgrounds>
+    <background>background\background8</background>
+    <background>background\bg_main</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_input.gml</script>
+    <script>scripts\scr_move.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
+    <object>objects\obj_bullet</object>
+    <objects name="obstacle">
+      <object>objects\obj_obstacle_1</object>
+      <object>objects\obj_obstacle_2</object>
+      <object>objects\obj_obstacle_3</object>
+      <object>objects\obj_obstacle_4</object>
+      <object>objects\obj_obstacle_5</object>
+      <object>objects\obj_parent</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_main</room>
