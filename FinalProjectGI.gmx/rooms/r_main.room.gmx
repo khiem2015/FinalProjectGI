@@ -57,6 +57,7 @@
     <instance objName="obj_obstacle_3" x="704" y="800" name="inst_D83F523C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle_4" x="288" y="960" name="inst_494F09AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_obstacle_5" x="544" y="1024" name="inst_058597F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spaner" x="544" y="672" name="inst_6BDF8DF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
