@@ -6,7 +6,6 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_driver_idle</sprite>
     <sprites name="obstacle">
       <sprite>sprites\spr_obstacle_1</sprite>
       <sprite>sprites\spr_obstacle_2</sprite>
@@ -22,9 +21,33 @@
         <sprite>sprites\spr_weapon_6</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\spr_enermy</sprite>
-    <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_lazer</sprite>
+    <sprites name="enermy_1">
+      <sprite>sprites\spr_enermy_idle_1</sprite>
+      <sprite>sprites\spr_enermy_walk</sprite>
+      <sprite>sprites\spr_enermy_attack</sprite>
+    </sprites>
+    <sprites name="enermy_2">
+      <sprite>sprites\spr_enermy_idle_2</sprite>
+      <sprite>sprites\spr_enermy_walk_2</sprite>
+      <sprite>sprites\spr_enermy_attack_2</sprite>
+    </sprites>
+    <sprites name="enermy_3">
+      <sprite>sprites\spr_enermy_idle_3</sprite>
+      <sprite>sprites\spr_enermy_walk_3</sprite>
+      <sprite>sprites\spr_enermy_attack_3</sprite>
+    </sprites>
+    <sprites name="enermy_4">
+      <sprite>sprites\spr_enermy_idle_4</sprite>
+      <sprite>sprites\spr_enermy_walk_4</sprite>
+      <sprite>sprites\spr_enermy_attack_4</sprite>
+    </sprites>
+    <sprites name="player">
+      <sprite>sprites\spr_player_attack</sprite>
+      <sprite>sprites\spr_player_idle</sprite>
+      <sprite>sprites\spr_player_move</sprite>
+    </sprites>
+    <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_plant</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="level2">
@@ -39,8 +62,8 @@
       <background>background\bg_road_level_4</background>
       <background>background\bg_road_wall_level_4</background>
     </backgrounds>
-    <background>background\background8</background>
     <background>background\bg_main</background>
+    <background>background\road_tile_set</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -49,7 +72,6 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
-    <object>objects\obj_bullet</object>
     <objects name="obstacle">
       <object>objects\obj_obstacle_1</object>
       <object>objects\obj_obstacle_2</object>
@@ -58,12 +80,19 @@
       <object>objects\obj_obstacle_5</object>
       <object>objects\obj_parent</object>
     </objects>
-    <object>objects\obj_enermy</object>
     <object>objects\obj_spaner</object>
-    <object>objects\obj_lazer</object>
+    <objects name="enermy">
+      <object>objects\obj_enermy</object>
+      <object>objects\obj_enermy_2</object>
+      <object>objects\obj_enermy_3</object>
+      <object>objects\obj_enermy_4</object>
+      <object>objects\obj_enemy_parent</object>
+    </objects>
+    <object>objects\obj_block</object>
+    <object>objects\obj_plant</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\r_main</room>
+    <room>rooms\r_mian</room>
     <room>rooms\r_main_level_2</room>
     <room>rooms\r_main_level_3</room>
     <room>rooms\r_main_level_4</room>
