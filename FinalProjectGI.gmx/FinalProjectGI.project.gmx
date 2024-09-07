@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\bg_main_sou</sound>
+    <sound>sound\sou_lose</sound>
+    <sound>sound\sou_win</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="obstacle">
       <sprite>sprites\spr_obstacle_1</sprite>
@@ -22,22 +26,14 @@
       </sprites>
     </sprites>
     <sprites name="enermy_1">
-      <sprite>sprites\spr_enermy_idle_1</sprite>
       <sprite>sprites\spr_enermy_walk</sprite>
       <sprite>sprites\spr_enermy_attack</sprite>
     </sprites>
     <sprites name="enermy_2">
-      <sprite>sprites\spr_enermy_idle_2</sprite>
       <sprite>sprites\spr_enermy_walk_2</sprite>
       <sprite>sprites\spr_enermy_attack_2</sprite>
     </sprites>
-    <sprites name="enermy_3">
-      <sprite>sprites\spr_enermy_idle_3</sprite>
-      <sprite>sprites\spr_enermy_walk_3</sprite>
-      <sprite>sprites\spr_enermy_attack_3</sprite>
-    </sprites>
     <sprites name="enermy_4">
-      <sprite>sprites\spr_enermy_idle_4</sprite>
       <sprite>sprites\spr_enermy_walk_4</sprite>
       <sprite>sprites\spr_enermy_attack_4</sprite>
     </sprites>
@@ -47,23 +43,24 @@
       <sprite>sprites\spr_player_move</sprite>
     </sprites>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_button_how_to_play</sprite>
     <sprite>sprites\spr_plant</sprite>
+    <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_button_play</sprite>
+    <sprite>sprites\spr_exit_button</sprite>
+    <sprite>sprites\spr_restart_button</sprite>
+    <sprite>sprites\spr_lose_title</sprite>
+    <sprite>sprites\spr_back_button</sprite>
+    <sprite>sprites\spr_wepon</sprite>
+    <sprite>sprites\spr_counter_enermy</sprite>
+    <sprite>sprites\spr_portal</sprite>
   </sprites>
   <backgrounds name="background">
-    <backgrounds name="level2">
-      <background>background\bg_road_level_2</background>
-      <background>background\bg_road_wall_level_2</background>
-      <backgrounds name="level3">
-        <background>background\bg_road_level_3</background>
-        <background>background\bg_road_wall_level_3</background>
-      </backgrounds>
-    </backgrounds>
-    <backgrounds name="level4">
-      <background>background\bg_road_level_4</background>
-      <background>background\bg_road_wall_level_4</background>
-    </backgrounds>
     <background>background\bg_main</background>
     <background>background\road_tile_set</background>
+    <background>background\bg_how_to_play</background>
+    <background>background\bg_menu</background>
+    <background>background\bg_main_2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -85,17 +82,30 @@
       <object>objects\obj_enermy</object>
       <object>objects\obj_enermy_2</object>
       <object>objects\obj_enermy_3</object>
-      <object>objects\obj_enermy_4</object>
       <object>objects\obj_enemy_parent</object>
     </objects>
     <object>objects\obj_block</object>
     <object>objects\obj_plant</object>
+    <object>objects\obj_how_to_play_button</object>
+    <object>objects\obj_title</object>
+    <object>objects\obj_play_button</object>
+    <object>objects\obj_exit_button</object>
+    <object>objects\obj_restart_button</object>
+    <object>objects\obj_lose_title</object>
+    <object>objects\obj_back_button</object>
+    <object>objects\obj_wepon</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_counter_enermy</object>
+    <object>objects\obj_portal</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\r_menu</room>
+    <room>rooms\r_how_to_play</room>
     <room>rooms\r_mian</room>
     <room>rooms\r_main_level_2</room>
     <room>rooms\r_main_level_3</room>
     <room>rooms\r_main_level_4</room>
+    <room>rooms\r_lose</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

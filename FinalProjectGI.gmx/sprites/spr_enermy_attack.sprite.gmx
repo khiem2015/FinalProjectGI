@@ -7,18 +7,18 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>21</bbox_left>
-  <bbox_right>69</bbox_right>
-  <bbox_top>24</bbox_top>
-  <bbox_bottom>67</bbox_bottom>
+  <bbox_left>15</bbox_left>
+  <bbox_right>50</bbox_right>
+  <bbox_top>15</bbox_top>
+  <bbox_bottom>43</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>88</width>
-  <height>76</height>
+  <width>62</width>
+  <height>48</height>
   <frames>
     <frame index="0">images\spr_enermy_attack_0.png</frame>
     <frame index="1">images\spr_enermy_attack_1.png</frame>
