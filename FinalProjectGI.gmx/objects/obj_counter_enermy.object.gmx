@@ -26,6 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>score = 0
+if room == r_mian{
+counter = 5}
+if room == r_main_level_2{
+counter = 10}
+if room == r_main_level_3{
+counter = 15}
+if room == r_main_level_4{
+counter = 20}
 </string>
           </argument>
         </arguments>
@@ -48,9 +56,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = 100
-y = 100
-if score == 2{
+            <string>x = obj_player.x
+y = obj_player.y - 25
+if score == counter{
 instance_create(irandom(1000),irandom(1000),obj_portal)
 instance_create(irandom(1000),irandom(1000),obj_portal)
 instance_create(irandom(1000),irandom(1000),obj_portal)

@@ -34,6 +34,7 @@ vspeed = obj_player.vspeed*2
 else {
 hspeed = 8
 }
+checkattack = true
 </string>
           </argument>
         </arguments>
