@@ -713,7 +713,7 @@ if x &gt; 700 {
 if checkattack == true{
 instance_create(x,y,obj_wepon)
 checkattack = false
-alarm [0] = 30
+alarm [0] = 15
 }
 </string>
           </argument>
